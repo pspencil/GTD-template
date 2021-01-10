@@ -1,0 +1,4 @@
+#+TITLE: README
+
+This folder is my GTD system template, drawing inspiration from [[https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html][Nicholas Petton]]'s
+and [[http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html][Charles Cave]]'s systems.
