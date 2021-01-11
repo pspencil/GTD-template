@@ -1,0 +1,4 @@
+#+TITLE: Someday
+
+This file stores some long term / low priority projects. This should not be in
+the agenda and should be reviewed regularly, e.g., weekly.

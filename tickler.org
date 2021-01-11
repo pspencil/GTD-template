@@ -1,0 +1,6 @@
+#+TITLE: Tickler
+
+This file contains things that we don't need to keep in mind now. We can set a
+timestamp to actions and they will appear in the agenda only when needed.
+
+* Tasks

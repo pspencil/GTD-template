@@ -1,0 +1,22 @@
+#+TITLE: GTD
+
+This file contains the acutal processed GTD items waiting to be actioned upon.
+
+Tags can be used to finely categorize an item, add links to people, and add GTD
+contexts. Follwing Nicholas's practice, contexts witll start with an "@".
+
+Custom agenda commands can be used to quickly filter items in this file. E.g.,
+#+begin_src elisp
+(setq org-agenda-custom-commands
+      '(("o" "At the office" tags-todo "@office"
+         ((org-agenda-overriding-header "Office")))))
+#+end_src
+
+* Tasks
+:PROPERTIES:
+:CATEGORY: Tasks
+:END:
+* Projects
+:PROPERTIES:
+:CATEGORY: Projects
+:END:

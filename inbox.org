@@ -1,0 +1,25 @@
+#+TITLE: Inbox
+
+This file is used to hold raw todo items from ~org-capture~ before being further
+processed.
+
+We can capture items directly into this file with something like
+
+#+begin_src elisp
+(setq org-capture-templates '(("t" "Todo [inbox]" entry
+                               (file+headline "~/gtd/inbox.org" "Tasks")
+                               "* TODO %i%?")))
+#+end_src
+
+Items in this file should be processed regularly (e.g., daily) and refile to
+other files. Refile targets can be set with something like
+
+#+begin_src elisp
+(setq org-refile-targets '(("~/gtd/gtd.org" :maxlevel . 3)
+                           ("~/gtd/someday.org" :level . 1)
+                           ("~/gtd/tickler.org" :maxlevel . 2)))
+#+end_src
+
+
+
+* Tasks
